@@ -83,3 +83,6 @@ Open your browser and navigate to http://localhost:3000
 
 - **Importing SVGs as Reusable JS Components**: SVG files are imported into reusable JavaScript components to enhance usability and customization. This approach improves reusability by allowing dynamic properties (like color and size) to be passed as props, ensuring consistency across the project. It simplifies theming, keeps the markup clean by reducing inline SVG clutter, and enhances maintainability, as updates to the icons can be made in one place. Additionally, it offers flexibility for future enhancements, such as adding animations or accessibility features.
 
+- **Image Size and Format**:Images to be under 1024x1024 pixels and saved in PNG or JPG format to optimize storage and enhance performance.
+
+- **Fonts**: Fonts are imported from Googlefonts rather than being utilized from local files.
