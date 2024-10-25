@@ -4,6 +4,13 @@
 
 DEVLINKS is a full-stack application that allows users to create, read, update, and delete links while providing previews of those links in a mobile mockup. The app also supports profile management, including the ability to upload a profile picture and input personal details. Additionally, it features drag-and-drop functionality for reordering links and thorough validation for user inputs.
 
+**Dashboard**
+![Dashboard](./screenshots/dashboard.PNG)
+**Profile**
+![Profile](./screenshots/Profile%20Details.PNG)
+**Preview**
+![Preview](./screenshots/Preview.PNG)
+
 ## Technologies Used
 
 - **Frontend:**
