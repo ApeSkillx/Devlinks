@@ -74,3 +74,12 @@ Open your browser and navigate to http://localhost:3000
 - **Database Integration**: User details and links are stored in a MongoDB database.
 - **Coming Soon**:
 ***User Authentication***: Multiple user Acounts logins.
+
+
+## Assumptions and Decisions
+- **UI of Profile and Preview Pages**: The design for both pages has been established.
+
+- **Default User**: Since the authentication feature is not yet implemented, a default user is hardcoded for now.
+
+- **Importing SVGs as Reusable JS Components**: SVG files are imported into reusable JavaScript components to enhance usability and customization. This approach improves reusability by allowing dynamic properties (like color and size) to be passed as props, ensuring consistency across the project. It simplifies theming, keeps the markup clean by reducing inline SVG clutter, and enhances maintainability, as updates to the icons can be made in one place. Additionally, it offers flexibility for future enhancements, such as adding animations or accessibility features.
+
