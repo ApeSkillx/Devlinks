@@ -28,7 +28,7 @@ function PreviewHeader() {
             href="/userdashboard"
             className="block w-full bg-white border border-solid border-primary-index hover:bg-neutral-light-purple text-primary-index text-sm font-bold rounded-md px-4 py-3 transition-colors duration-300 ease-in-out text-center"
           >
-            Back to Customization
+            Back to Dashboard
           </Link>
         </div>
         <div className="flex-1 md:flex-none">
