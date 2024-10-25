@@ -32,7 +32,7 @@ export default function DashboardHeader() {
         </Link>
         {/* sm tabs */}
         <Tabs className="md:hidden">
-          <Tabs.Item id={"/customize-links"} href={`/customize-links`}>
+          <Tabs.Item id={"/userdashboard"} href={`/userdashboard`}>
             <Tabs.Title></Tabs.Title>
           </Tabs.Item>
           <Tabs.Item id={"/profile-details"} href={`/profile-details`}>
@@ -41,7 +41,7 @@ export default function DashboardHeader() {
         </Tabs>
         {/* md tabs */}
         <Tabs className="hidden md:block">
-          <Tabs.Item id={"/customize-links"} href={`/customize-links`}>
+          <Tabs.Item id={"/userdashboard"} href={`/userdashboard`}>
             <Tabs.Title>Links</Tabs.Title>
           </Tabs.Item>
           <Tabs.Item id={"/profile-details"} href={`/profile-details`}>
